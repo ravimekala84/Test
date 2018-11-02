@@ -1,0 +1,3 @@
+git config --global user.name "RaviM"
+
+git whatchanged --since '10/31/2018' --until '11/02/2018' --oneline --name-only --pretty=format: | sort | uniq >> changedlist.txt
